@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-//double hasil(double umur, double berat, double tinggi){
-//return 66.5+13.75*berat+5.003*tinggi-6.75*umur;
-//}
+double hasil(double umur, double berat, double tinggi){
+return 66.5+13.75*berat+5.003*tinggi-6.75*umur;
+}
 
 class Menudetail extends StatefulWidget {
   final int? umur;
